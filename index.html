@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sivananthini Ravichandran</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sivananthini</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sivananthini</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+<!-- profile section -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/frontface.jpg" alt="Image can not load" class="profile-picture"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sivananthini </h1>
+        <p class="section__text__p2">Software & QA Enthusiast</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/R. Sivananthini_CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./index.html#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sivananthini-ravichandran-4229742a2/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Sivananthini164/'"
+          />
+        </div>
+      </div>
+    </section>
+<!-- About section -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/result.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>CP/N/Cambridge National College</h3>
+              <p>Result: A B C <br />District Rank: 4 <br>Island Rank: 123</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.avif"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>University of Sri Jayawardenepura</h3>
+              <p>BICT.Specl in Software Technology <br>CGPA: 3.58</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             <!-- As a dedicated computer science student with a strong passion for mobile application development, I am actively seeking an internship as a Flutter developer. I am eager to leverage my technical skills in creating dynamic, user-friendly mobile applications while contributing to innovative projects in a professional environment. With hands-on experience in test automation using Selenium and TestNG frameworks, I am equipped to ensure high-quality application performance and functionality. I bring a proactive approach to learning and problem-solving, complemented by strong time management, decision-making, and a positive attitude, all of which drive my commitment to delivering exceptional work and achieving project success. -->
+            As a dedicated ICT student with a strong passion for web application development, I bring a wealth of technical skills in creating dynamic, user-friendly web experiences, backed by a deep commitment to ensuring high-quality performance and functionality. My hands-on experience in test automation using Selenium enables me to rigorously test applications, pinpoint issues, and enhance app reliability. This blend of development expertise and testing proficiency allows me to approach projects with a holistic understanding of both coding and quality assurance. With a proactive attitude, strong time management, effective decision-making, and problem-solving abilities, I am committed to delivering exceptional work and driving project success.
+            </p>
+          </div>
+        </div>
+        <div class="section__pic-container">
+          <img
+            src="./assets/side.jpg"
+            alt="Image can not load"
+            class="about-pic"
+          />
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./index.html#experience'"
+      />
+    </section>
+<!-- skills section -->
+<section id="skills">
+<p class="section__text__p1">Get To Know More</p>
+<h1 class="title">Skills</h1>
+<div class="skills-container">
+  <h1 class="tech">Technical Skills</h1>
+  <div class="skill">
+    <div class="icon"><img src="./assets/html5.png" alt="HTML5"></div>
+    <span>HTML5</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="95"></div>
+      <span class="progress-text">95%</span>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon"><img src="./assets/css3.png" alt="CSS3"></div>
+    <span>CSS3</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="95"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon"><img src="./assets/nodejs.png" alt="NodeJS"></div>
+    <span>NodeJS</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="85"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon"><img src="./assets/javascript.png" alt="JavaScript"></div>
+    <span>JavaScript</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="85"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon"><img src="./assets/sql.png" alt="SQL"></div>
+    <span>SQL</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="95"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon"><img src="./assets/java.png" alt="Java"></div>
+    <span>Java</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="75"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon"><img src="./assets/c.png"" alt="C"></div>
+    <span>C</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="85"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon"><img src="./assets/csharp.png" alt="C#"></div>
+    <span>C#</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="95"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="icon"><img src="./assets/python.png"" alt="Python"></div>
+    <span>Python</span>
+    <div class="progress-bar">
+      <div class="progress" data-progress="75">75%</div>
+    </div>
+  </div>
+</div>
+<h1 class="soft-skills-heading">Soft Skills</h1>
+<div class="container-row">
+  <div class="card">
+    <ul>
+      <li><span class="tick-mark">✔</span> Adaptability</li>
+      <li><span class="tick-mark">✔</span> Time Management</li>
+      <li><span class="tick-mark">✔</span>Motivation</li>
+      <li><span class="tick-mark">✔</span> Decision Making</li>
+      <li><span class="tick-mark">✔</span> Positivity</li>
+    </ul>
+  </div>
+  <div class="card">
+    <ul>
+      <li><span class="tick-mark">✔</span> Leadership</li>
+      <li><span class="tick-mark">✔</span> Critical Thinking</li>
+      <li><span class="tick-mark">✔</span> Negotiation</li>
+      <li><span class="tick-mark">✔</span> Team Work</li>
+      <li><span class="tick-mark">✔</span> Creativity</li>
+    </ul>
+  </div>
+</div>
+<section id="tools">
+  <h1 class="soft-skills-heading" id="h1heading">Tools</h1>
+  <div class="tools-container">
+    
+    <div class="tool">
+      <img src="./assets/vscode.png" alt="vscode Logo">
+      <span>Visual Studio Code</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/ssms.png" alt="ssms Logo">
+      <span>SSMS</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/code.png" alt="code Logo">
+      <span>CodeBlocks</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/inteliji.png" alt="intel Logo">
+      <span>Inteliji</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/jira.png" alt="jira Logo">
+      <span>Jira</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/powerbi.png" alt="power Logo">
+      <span>PowerBI</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/git.png" alt="git Logo">
+      <span>GitHub</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/visual.png" alt="visual Logo">
+      <span>Visual Studio</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/jupyter.png" alt="jupyterLogo">
+      <span>Jupyter</span>
+    </div>
+    <div class="tool">
+      <img src="./assets/figma.png" alt="figma Logo">
+      <span>Figma</span>
+    </div>
+  </div>
+</section>
+</section>
+
+<section id="certifications">
+  <h1 class="soft-skills-heading" id="h1heading">Certifications</h1> 
+  <div class="certification">   
+    <div class="certification-header">
+      <span class="cert-name">Introduction to Backend Development</span>
+      <span class="issued-date"> Dec 2024</span>
+    </div>
+    <div class="certification-details">
+      <span class="organization">Issued By: Coursera</span>
+    </div>
+    <button class="credential-btn" onclick="window.open('https://www.coursera.org/account/accomplishments/verify/I9QGT71UMDQZ', '_blank')">
+      Show Credential
+    </button>
+  </div>
+
+  <div class="certification">
+    <div class="certification-header">
+      <span class="cert-name">Data Analytis 30 Days Master Class</span>
+      <span class="issued-date">Jul 2024</span>
+    </div>
+    <div class="certification-details">
+      <span class="organization">Issued By: NoviTech R&D Pvt Ltd</span>
+    </div>
+    <button class="credential-btn" onclick="window.open('./assets/data.jpg')">
+      Show Credential
+    </button>
+    </div>
+    
+    <div class="certification">   
+      <div class="certification-header">
+        <span class="cert-name">Java Programming</span>
+        <span class="issued-date"> Jun 2024</span>
+      </div>
+      <div class="certification-details">
+        <span class="organization">Issued By: Great Learning Academy</span>
+      </div>
+      <button class="credential-btn" onclick="window.open('https://www.mygreatlearning.com/certificate/DEJPGAIC', '_blank')">
+        Show Credential
+      </button>
+    </div>
+
+    <div class="certification">
+      <div class="certification-header">
+        <span class="cert-name">Internet ofThings 30 Days Master Class</span>
+        <span class="issued-date">Feb 2024</span>
+      </div>
+      <div class="certification-details">
+        <span class="organization">Issued By: NoviTech R&D Pvt Ltd</span>
+      </div>
+      <button class="credential-btn" onclick="window.open('./assets/iot.jpg')">
+        Show Credential
+      </button>  
+</section>
+
+
+</section>
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="projects-grid">
+    <!-- Project 1 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/reserve.jpg" alt="Reserve Master" class="project-img" />
+      </div>
+      <h2 class="experience-sub-title project-title">
+        Lecture Hall & Lab Management System
+      </h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sivananthini164/Reserve_Master'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://sivananthini164.github.io/Reserve_Master/'">Live Demo</button>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/door.jpg" alt="Automated Door" class="project-img" />
+      </div>
+      <h2 class="experience-sub-title project-title">
+        Automated Open & Closed Door using Arduino
+      </h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sivananthini164/Automated_Door'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/video.mp4')">Live Demo</button>
+      </div>
+    </div>
+    <!-- Project 3 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/dictionary.png" alt="Dictionary App" class="project-img" />
+      </div>
+      <h2 class="experience-sub-title project-title">
+        An Interactive Dictionary Application
+      </h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sivananthini164/Dictionary'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://sivananthini164.github.io/Dictionary/'">Live Demo</button>
+      </div>
+    </div>
+    <!-- Project 4 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/cocktail.png" alt="Cocktail App" class="project-img" />
+      </div>
+      <h2 class="experience-sub-title project-title">
+        A Cocktail Application
+      </h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sivananthini164/Cocktail-App'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://sivananthini164.github.io/Cocktail-App/'">Live Demo</button>
+      </div>
+    </div>
+    <!-- Project 5 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/snake.png" alt="Snake Game" class="project-img" />
+      </div>
+      <h2 class="experience-sub-title project-title">
+        User-Experienced Snake Game
+      </h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sivananthini164/snake-Game'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://sivananthini164.github.io/snake-Game/'">Live Demo</button>
+      </div>
+    </div>
+    <!-- Project 6 -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/piano.png" alt="Snake Game" class="project-img" />
+      </div>
+      <h2 class="experience-sub-title project-title">
+        Virtual Piano Keyboard
+      </h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sivananthini164/Piano_keyboard'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://sivananthini164.github.io/Piano_keyboard/">Live Demo</button>
+      </div>
+    </div>
+    <!-- Project 6 
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img src="./assets/converter.png" alt="Snake Game" class="project-img" />
+      </div>
+      <h2 class="experience-sub-title project-title">
+        Dynamic Quote Generator
+      </h2>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Sivananthini164/Converter'">Github</button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://sivananthini164.github.io/Converter/'">Live Demo</button>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<!-- contact section -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <di<div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:sivananthini611@gmail.com">sivananthini611@gmail.com</a></p>
+      </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sivananthini-ravichandran-4229742a2/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/call.png"
+            alt="Phone icon"
+            class="icon contact-icon"
+          />
+          <p><a href="tel:+94772032122">+94 77 203 2122</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Sivananthini Ravichandran. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
